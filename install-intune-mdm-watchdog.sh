@@ -137,8 +137,9 @@ restart_intune_agent() {
   if [[ "$restarted" -eq 0 ]]; then
     log "INFO" "Intune restart/check-in trigger executed successfully."
   else
-    log "ERROR" "No known Intune launchd label/process found to restart."
-    exit 1
+    # Do not hard-fail the LaunchAgent cycle when Intune isn't present yet.
+    # In enterprise rollouts, Company Portal / Intune components may appear later.
+    log "WARN" "No known Intune launchd label/process found to restart."
   fi
 }
 
