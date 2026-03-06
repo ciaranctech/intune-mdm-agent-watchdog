@@ -25,6 +25,14 @@ Installed artifacts:
 
 ---
 
+## Version History
+
+| Version | Date (UTC) | Summary |
+|---|---|---|
+| v1.0.0 | 2026-03-06 | Initial stable release: Intune LaunchAgent watchdog installer/uninstaller, login/load + network state + 5-minute triggers, logging, and VM validation notes. |
+
+---
+
 ## Intune Deployment
 
 1. In Intune, create a **macOS Shell Script** policy.
