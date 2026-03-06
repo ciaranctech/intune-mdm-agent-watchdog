@@ -29,6 +29,7 @@ Installed artifacts:
 
 | Version | Date (UTC) | Summary |
 |---|---|---|
+| v1.0.1 | 2026-03-06 | Documentation update: fixed release notes formatting and added/maintained README version history entry. No functional script changes. |
 | v1.0.0 | 2026-03-06 | Initial stable release: Intune LaunchAgent watchdog installer/uninstaller, login/load + network state + 5-minute triggers, logging, and VM validation notes. |
 
 ---
